@@ -1,0 +1,9 @@
+{
+  "name": "yinzon-uniapp-cap-example",
+  "version": "0.2.0",
+  "private": true,
+  "description": "英纵 uni-app Cap 安全验证组件最小示例",
+  "scripts": {
+    "check": "node ../scripts/check-example.mjs"
+  }
+}

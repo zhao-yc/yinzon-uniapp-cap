@@ -1,0 +1,34 @@
+{
+  "name": "英纵 uni-app Cap 示例",
+  "appid": "",
+  "description": "无业务配置的 Cap 组件最小示例",
+  "versionName": "0.2.0",
+  "versionCode": "20",
+  "transformPx": false,
+  "vueVersion": "3",
+  "uniStatistics": {
+    "enable": false
+  },
+  "app-plus": {},
+  "mp-weixin": {
+    "appid": "",
+    "workers": "uni_modules/yinzon-uniapp-cap/static/yinzon-uniapp-cap",
+    "setting": {
+      "urlCheck": true,
+      "es6": true,
+      "postcss": true,
+      "minified": true
+    },
+    "usingComponents": true
+  },
+  "mp-baidu": {
+    "appid": "",
+    "setting": {
+      "urlCheck": true,
+      "es6": true,
+      "postcss": true,
+      "minified": true
+    },
+    "usingComponents": true
+  }
+}

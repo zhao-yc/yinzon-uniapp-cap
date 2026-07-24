@@ -1,0 +1,14 @@
+.git/
+.github/
+.hbuilderx/
+.idea/
+.vscode/
+coverage/
+market-assets/
+node_modules/
+tests/
+unpackage/
+*.log
+package-lock.json
+pnpm-lock.yaml
+yarn.lock

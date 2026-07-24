@@ -1,0 +1,131 @@
+{
+  "id": "yinzon-uniapp-cap",
+  "name": "yinzon-uniapp-cap",
+  "displayName": "英纵 uni-app Cap 安全验证",
+  "version": "0.2.0",
+  "description": "适用于经典 uni-app Vue 3 的 Cap 安全验证组件，支持 Android、iOS、微信小程序和百度小程序。",
+  "type": "module",
+  "license": "Apache-2.0",
+  "author": "Yinzon",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhao-yc/yinzon-uniapp-cap.git"
+  },
+  "homepage": "https://github.com/zhao-yc/yinzon-uniapp-cap#readme",
+  "bugs": {
+    "url": "https://github.com/zhao-yc/yinzon-uniapp-cap/issues"
+  },
+  "keywords": [
+    "uni-app",
+    "captcha",
+    "cap",
+    "proof-of-work",
+    "安全验证"
+  ],
+  "files": [
+    "components/",
+    "hybrid/",
+    "js_sdk/",
+    "static/",
+    "LICENSE",
+    "license.md",
+    "NOTICE",
+    "THIRD_PARTY_NOTICES.md",
+    "changelog.md",
+    "readme.md",
+    "package.json"
+  ],
+  "scripts": {
+    "test": "node --test tests/*.test.mjs"
+  },
+  "engines": {
+    "HBuilderX": ">=4.0.0",
+    "uni-app": ">=4.0.0"
+  },
+  "dcloudext": {
+    "category": [
+      "前端组件",
+      "通用组件"
+    ],
+    "type": "component-vue",
+    "sale": {
+      "regular": {
+        "price": "0.00"
+      },
+      "sourcecode": {
+        "price": "0.00"
+      }
+    },
+    "contact": {
+      "qq": ""
+    },
+    "declaration": {
+      "ads": "无",
+      "data": "插件会在内存中短暂处理微信或百度一次性 code、Cap challenge、solution 和 App instrumentation 数据，仅发送至宿主配置的服务地址；不固定连接英纵服务器，不获取手机号、密码、昵称或头像，也不持久化临时凭证。",
+      "permissions": "无新增系统权限"
+    },
+    "npmurl": "",
+    "darkmode": "x",
+    "i18n": "x",
+    "widescreen": "√"
+  },
+  "uni_modules": {
+    "dependencies": [],
+    "encrypt": [],
+    "platforms": {
+      "cloud": {
+        "tcb": "x",
+        "aliyun": "x",
+        "alipay": "x"
+      },
+      "client": {
+        "uni-app": {
+          "vue": {
+            "vue2": "x",
+            "vue3": "√"
+          },
+          "web": {
+            "safari": "x",
+            "chrome": "x"
+          },
+          "app": {
+            "vue": "√",
+            "nvue": "x",
+            "android": "√",
+            "ios": "√",
+            "harmony": "x"
+          },
+          "mp": {
+            "weixin": "√",
+            "alipay": "x",
+            "toutiao": "x",
+            "baidu": "√",
+            "kuaishou": "x",
+            "jd": "x",
+            "harmony": "x",
+            "qq": "x",
+            "lark": "x"
+          },
+          "quickapp": {
+            "huawei": "x",
+            "union": "x"
+          }
+        },
+        "uni-app-x": {
+          "web": {
+            "safari": "x",
+            "chrome": "x"
+          },
+          "app": {
+            "android": "x",
+            "ios": "x",
+            "harmony": "x"
+          },
+          "mp": {
+            "weixin": "x"
+          }
+        }
+      }
+    }
+  }
+}

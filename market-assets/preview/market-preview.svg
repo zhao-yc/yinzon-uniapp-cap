@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1440" viewBox="0 0 1080 1440">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E5F6F3"/>
+      <stop offset="55%" stop-color="#F8FBFA"/>
+      <stop offset="100%" stop-color="#EAF2F2"/>
+    </linearGradient>
+    <linearGradient id="button" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0A8D8B"/>
+      <stop offset="100%" stop-color="#11AAA4"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="28" stdDeviation="28" flood-color="#155C59" flood-opacity="0.14"/>
+    </filter>
+    <filter id="smallShadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#155C59" flood-opacity="0.13"/>
+    </filter>
+  </defs>
+
+  <rect width="1080" height="1440" fill="url(#bg)"/>
+  <circle cx="1000" cy="118" r="240" fill="#CDEDEA" opacity="0.56"/>
+  <circle cx="36" cy="1298" r="210" fill="#D6EFEC" opacity="0.72"/>
+
+  <g transform="translate(74 68)">
+    <rect width="76" height="76" rx="22" fill="#0D9694" filter="url(#smallShadow)"/>
+    <text x="38" y="52" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="35" font-weight="700" fill="#FFFFFF">英</text>
+    <text x="99" y="33" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="700" fill="#174B49">英纵</text>
+    <text x="99" y="61" font-family="Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="2" fill="#5B7D7A">YINZON</text>
+  </g>
+
+  <g transform="translate(74 205)">
+    <text x="0" y="0" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="32" font-weight="700" letter-spacing="4" fill="#0D9694">UNI_MODULES</text>
+    <text x="0" y="92" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="75" font-weight="800" fill="#113D3B">英纵 uni-app</text>
+    <text x="0" y="180" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="75" font-weight="800" fill="#113D3B">Cap 安全验证</text>
+    <text x="2" y="238" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="29" fill="#5B7D7A">验证留在当前表单，不再跳转独立页面</text>
+  </g>
+
+  <g transform="translate(74 515)">
+    <rect width="932" height="628" rx="44" fill="#FFFFFF" stroke="#D5E8E5" stroke-width="2" filter="url(#shadow)"/>
+
+    <g transform="translate(54 48)">
+      <rect width="200" height="48" rx="24" fill="#E7F6F4"/>
+      <circle cx="27" cy="24" r="8" fill="#0D9694"/>
+      <text x="48" y="32" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#24706D">当前表单内验证</text>
+    </g>
+
+    <text x="54" y="154" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="30" font-weight="700" fill="#173F3D">安全验证</text>
+    <text x="54" y="197" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="22" fill="#76918E">平台凭证 · Cap challenge · PoW · 一次性票据</text>
+
+    <g transform="translate(54 238)">
+      <rect width="824" height="94" rx="22" fill="#F5FAF9" stroke="#D9E9E7" stroke-width="2"/>
+      <circle cx="48" cy="47" r="18" fill="none" stroke="#17A5A0" stroke-width="6" stroke-dasharray="78 35"/>
+      <text x="86" y="55" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="25" font-weight="700" fill="#355F5D">正在计算安全挑战…</text>
+      <text x="767" y="55" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#0D9694">68%</text>
+    </g>
+
+    <g transform="translate(54 358)">
+      <rect width="824" height="88" rx="22" fill="url(#button)"/>
+      <text x="412" y="56" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="27" font-weight="700" fill="#FFFFFF">提交并验证</text>
+    </g>
+
+    <g transform="translate(54 490)">
+      <rect width="244" height="66" rx="33" fill="#EEF7F6" stroke="#D7E8E6"/>
+      <text x="122" y="43" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#396966">App Android / iOS</text>
+      <rect x="266" width="244" height="66" rx="33" fill="#EEF7F6" stroke="#D7E8E6"/>
+      <text x="388" y="43" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#396966">微信小程序</text>
+      <rect x="532" width="244" height="66" rx="33" fill="#EEF7F6" stroke="#D7E8E6"/>
+      <text x="654" y="43" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#396966">百度小程序</text>
+    </g>
+  </g>
+
+  <g transform="translate(74 1212)">
+    <rect width="932" height="130" rx="30" fill="#174B49"/>
+    <g transform="translate(34 34)">
+      <path d="M25 0 47 9v18c0 16-9 28-22 35C12 55 3 43 3 27V9Z" fill="none" stroke="#79D2CD" stroke-width="4"/>
+      <path d="m16 30 7 7 13-16" fill="none" stroke="#79D2CD" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text x="112" y="56" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">需要宿主后端适配器</text>
+    <text x="112" y="94" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="21" fill="#B9DAD7">不内置业务域名、AppID、site key 或 secret</text>
+  </g>
+
+  <text x="540" y="1394" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="2" fill="#6B8886">YINZON-UNIAPP-CAP · V0.2.0</text>
+</svg>
