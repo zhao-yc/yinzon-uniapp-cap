@@ -2,8 +2,8 @@
   "name": "英纵 uni-app Cap 示例",
   "appid": "",
   "description": "无业务配置的 Cap 组件最小示例",
-  "versionName": "0.2.0",
-  "versionCode": "20",
+  "versionName": "0.2.1",
+  "versionCode": "21",
   "transformPx": false,
   "vueVersion": "3",
   "uniStatistics": {

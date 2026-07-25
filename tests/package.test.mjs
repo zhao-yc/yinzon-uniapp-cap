@@ -44,7 +44,7 @@ test("uni_modules 元数据和 easycom 组件契约完整", async () => {
   assert.equal(manifest.id, "yinzon-uniapp-cap");
   assert.equal(manifest.name, "yinzon-uniapp-cap");
   assert.equal(manifest.displayName, "英纵 uni-app Cap 安全验证");
-  assert.equal(manifest.version, "0.2.0");
+  assert.equal(manifest.version, "0.2.1");
   assert.equal(manifest.license, "Apache-2.0");
   assert.equal(Object.hasOwn(manifest, "private"), false);
   assert.equal(manifest.dcloudext.type, "component-vue");
