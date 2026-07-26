@@ -18,7 +18,7 @@ site key、secret 或业务数据结构。
 | Vue 2、H5、nvue、HarmonyOS、uni-app x | 不支持 | 验证会失败关闭 |
 | 其他小程序和快应用 | 不支持 | 验证会失败关闭 |
 
-最低版本为 HBuilderX 4.0.0 和经典 uni-app 4.0.0，使用 Vue 3。
+最低版本为 HBuilderX 5.15 和经典 uni-app 5.15，使用 Vue 3。
 
 ## 安装
 
